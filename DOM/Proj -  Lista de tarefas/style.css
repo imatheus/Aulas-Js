@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-family: monospace;
+    color: rgb(207, 207, 207);
+}
+span{
+    color: white;
+    font-style: none;
+    list-style: none;
+}
+ul, li{
+    color: rgb(255, 255, 255);
+    list-style:none;
+    text-align: left;
+    margin-left: -50px;
+}
+
+.tarefa li{
+    background-color: rgb(207, 207, 207);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    color: rgb(46, 46, 46);
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.tarefa li a{
+    font-family: monospace;
+    width: 30px;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    margin: -1px;
+    font-size: 20px;
+    cursor: pointer;
+    border:none;
+    background-color: rgb(255, 60, 60);
+    color: cornsilk;
+}
+
+.app{
+    background-color: rgb(22, 22, 22);
+    margin: 10px;
+    height: 97vh;
+    border-radius: 25px;
+    display: flex;
+}
+aside{
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+    width: 20%;
+    border-radius: 27px 0px 0px 27px;
+}
+aside .avatar{
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 35px;
+    padding: 1px;
+    height: 50px;
+}
+.form{
+    background-color:rgb(48, 48, 48) ;
+    margin: 10px;
+    width:400px;
+    max-height: 300px;
+    border-radius: 10px;
+    overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: rgb(48, 48, 48);
+    border-radius: 15px !important;
+    position: absolute;
+}
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+
+.form button{
+    background-color: rgb(136, 250, 29);
+    height: 39px;
+    width: 60px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+
+input{
+    font-family: monospace;
+    width: 285px;
+    font-size: 16px;
+    height: 10px;
+    border-radius: 2px;
+    border: none;
+    padding: 15px;
+
+}
+.form{
+    padding: 10px;
+}
